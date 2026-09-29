@@ -1,0 +1,49 @@
+# Growth Experiment Tracker
+
+Use this tracker to turn growth ideas into evidence-driven decisions.
+
+## Template
+
+Every experiment should answer these questions:
+
+- What is the user pain point?
+- What is the specific growth hypothesis?
+- Which metric defines success?
+- What is the baseline before we ship the change?
+- What did the variant achieve?
+- Should we scale, hold, or pivot?
+
+## Example experiment records
+
+1. Share prompt timing
+   - Hypothesis: showing the invite CTA after first-value moment will improve friend acceptance.
+   - Primary metric: referral acceptance rate.
+   - Recommendation: scale if the variant lifts accept rate by more than 5%.
+
+2. Reward structure
+   - Hypothesis: a dual reward will outperform a single-sided reward.
+   - Primary metric: activated referrals.
+   - Recommendation: hold unless retention is stable after the reward change.
+
+3. Onboarding simplification
+   - Hypothesis: reducing signup steps will improve invite conversion.
+   - Primary metric: activation after invite.
+   - Recommendation: scale if activation rises without churn.
+
+## Good experiment rules
+
+- test one variable at a time
+- compare against the same cohort and time window
+- always define the primary metric before launch
+- keep a fallback if the experiment creates churn
+- do not celebrate vanity metrics like raw clicks alone
+
+## Decision framework
+
+- Scale: the metric improves and retention is not harmed.
+- Hold: effect is positive but not conclusive.
+- Pivot: effect is negative or causes churn.
+
+## Recommendation
+
+Use the `data/experiments.csv` file as your working log, and treat the tracker as a living source of truth for the growth team.

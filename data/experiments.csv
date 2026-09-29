@@ -1,0 +1,14 @@
+{
+  "app_type": "social",
+  "primary_growth_loop": "referral_and_network_effects",
+  "first_experiment": "share prompt timing after first meaningful milestone",
+  "growth_hypothesis": "Users share more when the value moment is fresh and the reward is visible immediately.",
+  "recommended_metrics": [
+    "invites_per_user",
+    "invite_conversion_rate",
+    "activation_rate",
+    "retention_rate",
+    "share_completion_rate"
+  ],
+  "notes": "Update app_type to social, saas, marketplace, gaming, content, or productivity to tailor the repo recommendation set."
+}
